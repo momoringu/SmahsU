@@ -31,3 +31,11 @@
 #area{
     padding-bottom: 10px;
 }
+
+.TagAuthor{
+    text-align: right;
+}
+
+.CommentTitle{
+    text-align: center;
+}

@@ -21,6 +21,11 @@ class Navbar extends Component {
                         Register
                     </Link>
                 </li>
+                <li className="nav-item">
+                    <Link to="/viewpost" className="nav-link">
+                        View Post
+                    </Link>
+                </li>
             </ul>
         )
         const userLink = (
@@ -39,6 +44,11 @@ class Navbar extends Component {
                     <a href="" onClick={this.logOut.bind(this)} className="nav-link">
                         Logout
                     </a>
+                </li>
+                <li className="nav-item">
+                    <Link to="/viewpost" className="nav-link">
+                        View Post
+                    </Link>
                 </li>
             </ul>
         )
